@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>git-simantic-release</id>
+    <version>1.0.0</version>
+    <authors>git-simantic-release</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\codebase\poc\git-simantic-release\git-simantic-release\bin\Debug\net6.0\git-simantic-release.runtimeconfig.json" target="lib\net6.0\git-simantic-release.runtimeconfig.json" />
+    <file src="C:\codebase\poc\git-simantic-release\git-simantic-release\bin\Debug\net6.0\git-simantic-release.dll" target="lib\net6.0\git-simantic-release.dll" />
+  </files>
+</package>
