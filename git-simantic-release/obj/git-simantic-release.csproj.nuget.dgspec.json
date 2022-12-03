@@ -27,7 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://pkgs.dev.azure.com/SaurabhNautiyal/nuget-feed/_packaging/nuget-repo/nuget/v3/index.json": {}
+          "c:\\codebase\\repo": {}
         },
         "frameworks": {
           "net6.0": {
