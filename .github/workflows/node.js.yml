@@ -31,5 +31,5 @@ jobs:
     - run: npx semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: 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
+        NODE_AUTH_TOKEN: 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
         
