@@ -1,5 +1,5 @@
 {
-  "dependencies": {https://github.com/saurabhnautiyal-pm/semantic-release-poc/blob/main/package.json
+  "dependencies": {
         "husky": "^8.0.2"
   },
   "devDependencies": {
