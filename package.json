@@ -1,4 +1,6 @@
 {
+   "name" : "sementic-release-poc",
+  "version": "0.0.0",
   "dependencies": {
         "husky": "^8.0.2"
   },
