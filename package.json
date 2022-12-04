@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "dependencies": {https://github.com/saurabhnautiyal-pm/semantic-release-poc/blob/main/package.json
         "husky": "^8.0.2"
   },
   "devDependencies": {
@@ -7,7 +7,7 @@
     "semantic-release": "^19.0.5"
   },
   "release": {
-    "branches": ["master", "next"]
+    "branches": ["main", "next"]
   },
   "config": {
     "commit-message-validator": {
