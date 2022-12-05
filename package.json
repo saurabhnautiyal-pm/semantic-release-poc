@@ -2,6 +2,7 @@
    "name": "sementic-release-poc",
    "version": "0.0.0",
    "dependencies": {
+      "conventional-changelog-conventionalcommits": "^5.0.0",
       "husky": "^8.0.2"
    },
    "devDependencies": {
@@ -19,17 +20,39 @@
       ],
       "plugins": [
          "@semantic-release/commit-analyzer",
-         ["@semantic-release/release-notes-generator", {
-            "preset": "conventionalcommits",
-            "parserOpts": {
-              "noteKeywords": ["BREAKING CHANGE", "feat" ,"bug", "BREAKING CHANGES", "BREAKING"]
-            },
-            "writerOpts": {
-              "commitsSort": ["subject", "scope"]
+         [
+            "@semantic-release/release-notes-generator",
+            {
+               "preset": "conventionalcommits",
+               "parserOpts": {
+                  "noteKeywords": [
+                     "BREAKING CHANGE",
+                     "feat",
+                     "bug",
+                     "BREAKING CHANGES",
+                     "BREAKING"
+                  ]
+               },
+               "writerOpts": {
+                  "commitsSort": [
+                     "subject",
+                     "scope"
+                  ]
+               }
             }
-          }],
-         "@semantic-release/git"
-      ]
+         ],
+         [
+            "@semantic-release/changelog",
+            {
+              "changelogFile": "docs/CHANGELOG.md"
+            }
+          ],
+          [
+            "@semantic-release/git",
+            {
+              "assets": ["docs/CHANGELOG.md"]
+            }
+          ]      ]
    },
    "config": {
       "commit-message-validator": {
