@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v2.1.0...v2.1.1) (2022-12-05)
+
+
+### Bug Fixes
+
+* **cc-1234:** adding git ignore file ([b531ed4](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/b531ed4630435ac26e52832fe23c104c87a866c7))
+
 # [2.1.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v2.0.0...v2.1.0) (2022-12-05)
 
 
