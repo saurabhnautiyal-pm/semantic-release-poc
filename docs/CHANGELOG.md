@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.5.0...v2.0.0) (2022-12-05)
+
+
+### Features
+
+* **cc-3456:** added .rcconfig file ([ba6f236](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/ba6f2365ee86ba410f75586706fcaa7abb0d70f3))
+
+
+### BREAKING CHANGES
+
+* **cc-3456:**
+
 # [1.5.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.4.0...v1.5.0) (2022-12-05)
 
 
