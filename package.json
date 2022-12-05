@@ -2,55 +2,19 @@
   "name": "sementic-release-poc",
   "version": "0.0.0",
   "dependencies": {
-     "husky": "^8.0.2"
   },
   "devDependencies": {
+     "husky": "^8.0.2",
      "@semantic-release/changelog": "^6.0.2",
      "@semantic-release/git": "^10.0.1",
      "commit-message-validator": "^1.0.2",
      "semantic-release": "^19.0.5"
   },
-  "release": {
-     "branches": [
-        "main",
-        "release",
-        "master",
-        "next"
-     ],
-     "plugins": [
-        ["@semantic-release/commit-analyzer", {
-           "preset": "angular",
-           "parserOpts": {
-             "noteKeywords": ["BREAKING CHANGE","perf","feat", "BREAKING CHANGES", "BREAKING"]
-           }
-         }],
-         ["@semantic-release/release-notes-generator", {
-           "preset": "angular",
-           "parserOpts": {
-             "noteKeywords": ["BREAKING CHANGE","perf", "BREAKING CHANGES", "BREAKING"]
-           },
-           "writerOpts": {
-             "commitsSort": ["subject", "scope"]
-           }
-         }],
-         [
-           "@semantic-release/changelog",
-           {
-             "changelogFile": "docs/CHANGELOG.md"
-           }
-         ],
-         [
-           "@semantic-release/git",
-           {
-             "assets": ["docs/CHANGELOG.md"]
-           }
-         ],
-         "@semantic-release/github"      ]
-  },
+
 "config": {
      "commit-message-validator": {
         "pattern": [
-           "(chore|docs|feat|fix|improvement|perf|refactor|BREAKING CHANGE|revert|style|test)\\([a-zA-Z]+-[0-9]+\\):"
+           "(chore|docs|feat|fix|improvement|perf|refactor|revert|style|test)\\([a-zA-Z]+-[0-9]+\\):"
         ],
         "errorMessage": "\nPlease provide the commit message in the following format.\n\t<standard_convention>(<jira_ticket>): <msg> \nStandard conventions(type) must be one of [build, chore, ci, docs, feature, fix, improvement, perf, refactor, revert, style, test]\n\nExample: feature(CD-1124): Adds commit message lints\n\n"
      }
