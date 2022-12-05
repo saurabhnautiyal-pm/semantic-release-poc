@@ -13,14 +13,19 @@
       "branches": [
          "main",
          "next"
-      ]
+      ],
+      "plugins": [
+         "@semantic-release/commit-analyzer",
+         "@semantic-release/release-notes-generator",
+         "@semantic-release/git"
+       ]
    },
    "config": {
       "commit-message-validator": {
          "pattern": [
             "(build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test)\\([a-zA-Z]+-[0-9]+\\):"
          ],
-         "errorMessage": "\nPlease provide the commit message in the following format.\n\t<standard_convention>(<jira_ticket>): <msg> \nStandard conventions(type) must be one of [build, chore, ci, docs, feature, fix, improvement, perf, refactor, revert, style, test]\n\nExample: feature(CD-1124): Adds commit message lints\n\nFind more details https://confluence.productmadness.com/display/PMCA/Husky+githoooks+and+Commit+Lint+through+ci-plugin-client\n"
+         "errorMessage": "\nPlease provide the commit message in the following format.\n\t<standard_convention>(<jira_ticket>): <msg> \nStandard conventions(type) must be one of [build, chore, ci, docs, feature, fix, improvement, perf, refactor, revert, style, test]\n\nExample: feature(CD-1124): Adds commit message lints\n\n"
       }
    }
 }
