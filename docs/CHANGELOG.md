@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v2.0.0...v2.1.0) (2022-12-05)
+
+
+### Features
+
+* **cc-2345:** code refactoring ([11a5344](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/11a5344a92d32a0c57a0a79de725ee9e0e9c7e57))
+
 # [2.0.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.5.0...v2.0.0) (2022-12-05)
 
 
