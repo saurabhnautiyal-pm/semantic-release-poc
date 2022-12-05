@@ -50,7 +50,7 @@
 "config": {
      "commit-message-validator": {
         "pattern": [
-           "(chore|docs|feat|fix|improvement|perf|refactor|BREAKING CHANGE|revert|style|test):"
+           "(chore|docs|feat|fix|improvement|perf|refactor|BREAKING CHANGE|revert|style|test)\\([a-zA-Z]+-[0-9]+\\):"
         ],
         "errorMessage": "\nPlease provide the commit message in the following format.\n\t<standard_convention>(<jira_ticket>): <msg> \nStandard conventions(type) must be one of [build, chore, ci, docs, feature, fix, improvement, perf, refactor, revert, style, test]\n\nExample: feature(CD-1124): Adds commit message lints\n\n"
      }
