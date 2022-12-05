@@ -22,7 +22,7 @@
          ["@semantic-release/commit-analyzer", {
             "preset": "angular",
             "parserOpts": {
-              "noteKeywords": ["BREAKING CHANGE","perf", "BREAKING CHANGES", "BREAKING"]
+              "noteKeywords": ["BREAKING CHANGE","perf","feat", "BREAKING CHANGES", "BREAKING"]
             }
           }],
           ["@semantic-release/release-notes-generator", {
