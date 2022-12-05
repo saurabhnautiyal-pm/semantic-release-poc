@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-echo customcommit
-echo $1npx commit-message-validator
-npx commit-message-validator
