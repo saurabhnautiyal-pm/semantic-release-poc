@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.3.1...v1.3.2) (2022-12-05)
+
+
+### Bug Fixes
+
+* **CC-1235:** removing tags ([8c2be42](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/8c2be42161559c8219ed21875f818cb8863e3dce))
+
 ## [1.3.1](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.3.0...v1.3.1) (2022-12-05)
 
 
