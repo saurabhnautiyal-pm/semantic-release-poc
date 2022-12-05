@@ -47,8 +47,7 @@
          ],
          "@semantic-release/github"      ]
   },
-  
-  "config": {
+"config": {
      "commit-message-validator": {
         "pattern": [
            "(chore|docs|feat|fix|improvement|perf|refactor|BREAKING CHANGE|revert|style|test)\\([a-zA-Z]+-[0-9]+\\):"
