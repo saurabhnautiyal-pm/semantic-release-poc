@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v2.1.1...v2.2.0) (2022-12-05)
+
+
+### Features
+
+* **CC-2345:** removing node_module folder ([4987810](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/4987810d74f95adac62ef2a178b2e08a29ae282e))
+
 ## [2.1.1](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v2.1.0...v2.1.1) (2022-12-05)
 
 
