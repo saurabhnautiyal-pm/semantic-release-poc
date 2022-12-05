@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.3.5...v1.4.0) (2022-12-05)
+
+
+### Features
+
+* **cc-1234:** test breaking change ([461d27c](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/461d27cd1c6a03f7ac0fa3f2fe4252714e7949f7))
+
 ## [1.3.5](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.3.4...v1.3.5) (2022-12-05)
 
 
