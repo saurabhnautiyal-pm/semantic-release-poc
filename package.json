@@ -47,6 +47,7 @@
          ],
          "@semantic-release/github"      ]
   },
+  
   "config": {
      "commit-message-validator": {
         "pattern": [
