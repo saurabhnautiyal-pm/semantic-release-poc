@@ -2,7 +2,6 @@
    "name": "sementic-release-poc",
    "version": "0.0.0",
    "dependencies": {
-      "conventional-changelog-conventionalcommits": "^5.0.0",
       "husky": "^8.0.2"
    },
    "devDependencies": {
