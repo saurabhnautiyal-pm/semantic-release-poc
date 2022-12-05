@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.3.3...v1.3.4) (2022-12-05)
+
+
+### Performance Improvements
+
+* **CC-1235:** adding github plugin ([2fa36bf](https://github.com/saurabhnautiyal-pm/semantic-release-poc/commit/2fa36bf90304ad525cb5659fa42b0a7a2c779e5c))
+
 ## [1.3.3](https://github.com/saurabhnautiyal-pm/semantic-release-poc/compare/v1.3.2...v1.3.3) (2022-12-05)
 
 
